@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+}
+.logo{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+.logo img{
+    height: 30px;
+    width: 80px;
+
+}
+.list{
+    position: absolute;
+    display: flex;
+    font-family: 'Orbitron', sans-serif;
+    height: 20px;
+    width: 500px;
+    list-style-type: none;
+    margin-left: 430px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+.list-item{
+    margin-left: 25px; 
+}
+li:nth-child(1){
+    order: -2;
+}
+li:nth-child(3){
+    order: -1;
+}
+.button-group{
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    margin-top: 80px;
+   margin-left: 970px;
+   align-items: center;
+}
+.search-icon svg{
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+}
+.nav-button{
+    position: absolute;
+    border-radius: 10px;
+    height: 33px;
+    width: 130px;
+    margin-left: 8px;
+    background-color: transparent;
+    font-size: 18px;
+    cursor: pointer;
+}
+.hero-container {
+   position: absolute;
+
+}
+.square{
+    position: absolute;
+    top: 350px;
+    left: 320px; 
+    
+}
+.hero-container .square img{
+    height: 240px;
+    width: 230px;
+
+}
+.star{
+position:absolute;
+margin-left: 1080px;
+margin-top: 180px;
+}
+.hero-container .star img{
+    height: 45px;
+}
+.globe{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 140px; 
+}
+.hero-container .globe img{
+    height: 45px;
+}
+.hero-heading{
+    position: absolute;
+    margin-left: 600px;
+    margin-right: 10px;
+    font-size: 40px;
+    margin-top: 240px;
+    height: 80px;
+    width: 600px; 
+    font-family: 'Orbitron', sans-serif;
+}
+.hero-description{
+   position: absolute;
+   margin-left: 630px;
+   margin-right: 200px;
+   margin-top: 300px;
+   font-size: 10px;
+   padding: 20px;
+   text-align: center;
+   height: 50px;
+   width: 450px;
+   color: #6d6c6c;
+   font-family: 'Poppins', sans-serif;
+}
+.button-email{
+    position: absolute;
+    margin-left: 720px;
+    margin-top: 430px;
+    height: 27px;
+    width: 160px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+}
+.button-join{
+    position: absolute;
+    background-color: #000000;
+    color: #ffffff;
+    margin-left: 890px;
+    margin-top: 430px;
+    height: 27px;
+    width: 120px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+}
+.contact-heading{
+    position: absolute;
+    margin-left: 810px;
+    margin-top: 530px;
+    height: 50px;
+    width: 200px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    color: #6d6c6c;
+}
+.icons{
+    position: absolute;
+    height: 100px;
+    width: 340px;
+    text-align:end;
+    margin-top: 530px;
+    margin-left: 600px;
+    background-image: url(./assets/Start.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    
+}
+.hero-container > div > img{
+    position: absolute;
+    height: 380px;
+    padding: 50px;
+    margin-left: 150px;
+    margin-top: 120px;
+}
+.icons img{
+    height: 25px;
+    margin-right: 15px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+li{
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+    letter-spacing: 0.5px;
+    padding: 0 5px;
+}
+li:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #131313;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease;
+  }
+  
+li:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    
+  }
